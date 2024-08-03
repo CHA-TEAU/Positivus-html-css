@@ -75,7 +75,6 @@ a:hover{
 
 
 /* HEADER MAIN CONTENT */
-/* ====== Header Left ====== */
 
 .header__left{
     width: 100%;
@@ -110,4 +109,25 @@ a:hover{
     cursor: pointer;
     background-color: #B9FF66;
     color: #000;
+}
+
+/* COMPANIES */
+
+.companies{
+    margin-top: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.companies img{
+    filter: grayscale(100%);
+
+    transition: .2s ease;
+}
+
+.companies img:hover{
+    cursor: pointer;
+    filter: grayscale(0);
 }
