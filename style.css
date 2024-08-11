@@ -170,7 +170,7 @@ a:hover{
 }
 
 .services__title p{
-    max-width: 50%;
+    max-width: 580px;
     font-size: 18px;
 }
 
@@ -195,6 +195,7 @@ a:hover{
     align-items: center;
     justify-content: center;
 }
+
 
 /* -------- Services Cards Styles --------*/
 
@@ -258,6 +259,138 @@ a:hover{
     gap: 16px;
 }
 
-
-
 /* -------- Services End -------- */
+
+/* -------- Contact Us -------- */
+
+.contacts__banner{
+    position: relative;
+    margin-top: 123px;
+    padding: 60px;
+    
+    background-color: var(--bg-color-1);
+    border-radius: 45px;
+
+    
+}
+
+.contacts__banner img{
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 746px;
+}
+
+.contacts__text{
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 26px;
+}
+
+.contacts__text h3{
+    font-size: 30px;
+}
+
+.contacts__text p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contacts__text button{
+    width: 288px;
+    height: 68px;
+    background-color: var(--bg-color-3);
+    border-radius: 14px;
+
+    font-size: 16px;
+    color: var(--text-color-light);
+
+    cursor: pointer;
+    transition: .1s ease;
+}
+
+.contacts__text button:hover{
+    color: var(--highlight-bg-color-default);
+}
+
+/* -------- Contact Us End-------- */
+
+/* -------- Case Studies-------- */
+
+.case__studies{
+    margin-top: 140px;
+}
+
+.cases__title{
+    display: flex;
+    align-items: center;
+
+    gap: 40px;
+
+    margin-bottom: 80px;
+}
+
+.cases__title h2{
+    background-color: var(--bg-color-2);
+    border-radius: 5px;
+    padding: 2px 5px;
+
+    font-size: 40px;
+}
+
+.cases__title p{
+    max-width: 580px;
+    font-size: 18px;
+}
+
+.cases__table{
+    background-color: var(--bg-color-3);
+    border-radius: 45px;
+    padding: 70px 60px 90px;
+    color: var(--text-color-light);
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cases__point{
+    width: 20%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.separator {
+    position: relative;
+}
+
+.separator::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -50%; 
+    width: 1px;
+    background-color: var(--highlight-bg-color-alt); 
+    height: 186px;
+}
+.separator::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 150%; 
+    width: 1px;
+    background-color: var(--highlight-bg-color-alt); 
+    height: 186px;
+}
+/* -------- Case Studies End-------- */
+
